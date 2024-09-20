@@ -1,0 +1,51 @@
+.atleta {
+    position: relative;
+    width: 280px;
+}
+
+.atleta .cabecalho {
+    background-color: #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.atleta img {
+    width: 100px;
+    height: 100px; /* Garante que todas as imagens tenham a mesma altura */
+    border-radius: 50%; /* Faz a imagem ficar circular */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorção */
+    position: relative;
+    bottom: -50px;
+}
+
+.atleta .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.atleta .rodape h4 {
+    color: #0770b7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.atleta .rodape h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 16px;
+}
+
+.deletar {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.favorito {
+    margin-top: 20px;
+}
